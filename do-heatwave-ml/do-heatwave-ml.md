@@ -65,12 +65,12 @@ In this lab, you will be guided through the following task:
     a. Click on this link to **Download file [iris-ml-data.txt](files/iris-ml-data.txt)**  to your local machine
     b. Open iris-ml-data.txt from your local machine with notepad
 
-    ![MDS](./images/iris-ml-data.png "iris-ml-data ")
+    ![MDS iris data ](./images/iris-ml-data.png "iris-ml-data ")
 
     c. Copy all of the content of the iris-ml-data.txt file from your local machine
         - Paste the content next to the MySQL Shell command and hit enter at the very end (please don't forget to confirm last statement).
 
-    ![MDS](./images/iris-ml-data-execute.png "iris-ml-data-execute ")
+    ![MDS iris data execute](./images/iris-ml-data-execute.png "iris-ml-data-execute ")
 
 2. View the content of  your machine Learning schema (ml_data)
 
@@ -86,7 +86,7 @@ In this lab, you will be guided through the following task:
     <copy>show tables; </copy>
     ```
 
-    ![MDS](./images/show-ml-data.png "show-ml-data ")
+    ![MDS show data](./images/show-ml-data.png "show-ml-data ")
 
 ## Task 3: Train the machine learning model
 
@@ -111,7 +111,7 @@ In this lab, you will be guided through the following task:
     A model must be loaded before you can use it. The model remains loaded until you unload it or the HeatWave Cluster is restarted.
 
     **Note**  Your output should look like this:
-    ![MDS](./images/iris-ml-build-out.png "iris-ml-build-out ")
+    ![ML Build out](./images/iris-ml-build-out.png "iris-ml-build-out ")
 
 ## Task 4: Predict and Explain for Single Row
 
@@ -129,7 +129,7 @@ In this lab, you will be guided through the following task:
     Based on the feature inputs that were provided, the model predicts that the Iris plant is of the **class Iris-virginica**. The feature values used to make the prediction are also shown.
 
     **Note**  Your output should look like this:
-    ![MDS](./images/iris-ml-predict-out.png "iris-ml-predict-out ")
+    ![ML predict](./images/iris-ml-predict-out.png "iris-ml-predict-out ")
 
 2. To have a more human readable output, you can use the built-in function JSON\_PRETTY. Repeat row prediction with a better formatting output:
 
@@ -138,7 +138,7 @@ In this lab, you will be guided through the following task:
     ```
 
     **Note**  Your output should look like this:
-    ![MDS](./images/iris-ml-predict-out-pretty.png "iris-ml-predict-out ")
+    ![ML predict formatted](./images/iris-ml-predict-out-pretty.png "iris-ml-predict-out-pretty ")
 
 3. Generate an explanation for the same row of data using the ML\_EXPLAIN\_ROW routine to understand how the prediction was made:
 
@@ -149,7 +149,7 @@ In this lab, you will be guided through the following task:
     The attribution values show which features contributed most to the prediction, with petal length and pedal width being the most important features. The other features have a 0 value indicating that they did not contribute to the prediction.
 
     **Note**  Your output should look like this:
-    ![MDS](./images/iris-ml-explain-out.png "iris-ml-predict-out ")
+    ![ML predict explain ](./images/iris-ml-explain-out.png "iris-ml-predict-explain ")
 
 
 ## Task 5: Make predictions and run explanations for a table of data  using a trained model
@@ -169,7 +169,7 @@ In this lab, you will be guided through the following task:
     The table shows the predictions and the feature column values used to make each prediction.
 
      **Note**  Your output should look like this:
-    ![MDS](./images/iris-ml-predict-table.png "iris-ml-predict=table-out ")
+    ![Predict with table](./images/iris-ml-predict-table.png "iris-ml-predict=table-out ")
 
 
 3. Generate explanations for the same table of data using the ML\_EXPLAIN\_TABLE routine.
@@ -185,7 +185,7 @@ In this lab, you will be guided through the following task:
     ```
 
      **Note**  Your output should look like this:
-    ![MDS](./images/iris-ml-explain-table.png "iris-ml-predict=table-out ")
+    ![ML  Explain with table](./images/iris-ml-explain-table.png "iris-ml-explai=table-out ")
 
 ## Task 6: Score your machine learning model to assess its reliability and unload the model
 
@@ -202,7 +202,7 @@ In this lab, you will be guided through the following task:
     ```
 
     **Note**  Your output should look like this:
-    ![MDS](./images/iris-ml-score-model-out.png "iris-ml-score-model-out ")
+    ![ML Model](./images/iris-ml-score-model-out.png "iris-ml-score-model-out ")
 
 3. Unload the model using ML\_MODEL\_UNLOAD:
 

@@ -69,13 +69,13 @@ In this lab, you will be guided through the following tasks:
 ## Task 2: Configure security list to allow MySQL incoming connections
 
 1. On MDS-VCN page under 'Subnets in (root) Compartment', click  '**private subnet-heatwave-vcn**'
-     ![VCN](./images/vcn-details.png "Show VCN Details")
+     ![Show VCN](./images/vcn-details.png "Show VCN Details")
 
 2. On Private Subnet-MDS-VCN page under 'Security Lists',  click  '**Security List for private subnet-heatwave-vcn**'
-    ![VCN](./images/vcn-security-list.png "Show Security Lists")
+    ![VCN Security Lists](./images/vcn-security-list.png "Show Security Lists")
 
 3. On Security List for Private Subnet-MDS-VCN page under 'Ingress Rules', click '**Add Ingress Rules**'
-    ![VCN](./images/vcn-mysql-ingress.png "Prepar for add Add Ingress Rules")
+    ![VCN Add Ingress Rules](./images/vcn-mysql-ingress.png "Prepar for add Add Ingress Rules")
 
 4. On Add Ingress Rules page under Ingress Rule
 
@@ -98,10 +98,10 @@ In this lab, you will be guided through the following tasks:
     ```
 
 5. Click 'Add Ingress Rule'
-    ![VCN](./images/vcn-mysql-add-ingress.png "Save  MySQL Ingress Rule  entries")
+    ![VCN MySQL Ingress Rule  entries](./images/vcn-mysql-add-ingress.png "Save  MySQL Ingress Rule  entries")
 
 6. On Security List for Private Subnet-MDS-VCN page, the new Ingress Rules will be shown under the Ingress Rules List
-    ![VCN](./images/vcn-mysql-ingress-completed.png "view  MySQL Ingress Rules")
+    ![VCN MySQL Ingress Rules](./images/vcn-mysql-ingress-completed.png "view  MySQL Ingress Rules")
 
 ## Task 3: Configure security list to allow HTTP incoming connections
 
@@ -135,11 +135,11 @@ In this lab, you will be guided through the following tasks:
 
 6. Click 'Add Ingress Rule'
 
-    ![VCN](./images/vcn-ttp-add-ingress.png "Add HTTP Ingress Rule")
+    ![VCN HTTP Ingress Rule](./images/vcn-ttp-add-ingress.png "Add HTTP Ingress Rule")
 
 7. On Security List for Default Security List for mds_vcn page, the new Ingress Rules will be shown under the Ingress Rules List
 
-    ![VCN](./images/vcn-ttp-ingress-completed.png"View VCN Completed HTTP Ingress rules")
+    ![VCN Completed HTTP Ingress rules](./images/vcn-ttp-ingress-completed.png"View VCN Completed HTTP Ingress rules")
 
 ## Task 2: Create MySQL Database for HeatWave (DB System) instance
 

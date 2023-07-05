@@ -178,7 +178,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
         - Databases
         - MySQL
         - Click the `HEATWAVE-DB` Database System link
-    ![navigation mysqlwith instance](./images/navigation-mysql-with-instance.png " navigation mysqlwith instance")
+    ![navigation mysql with instance](./images/navigation-mysql-with-instance.png " navigation mysqlwith instance")
 
 3. Copy the HEATWAVE-DB  `Private IP Address` to the notepad
     ![mysql detail ip](./images/mysql-detail-ip.png "mysql detail ip")

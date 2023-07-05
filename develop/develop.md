@@ -67,7 +67,7 @@ In this lab, you will be guided through the following tasks:
 
     **Example: http://129.213....**
 
-    ![MDS](./images/apache-test-page.png "iris-web-php")
+    ![IRIS APP](./images/apache-test-page.png "iris-web-php")
 
 ## Task 2: Install PHP
 
@@ -121,7 +121,7 @@ In this lab, you will be guided through the following tasks:
 
     **Example: http://129.213.167.../info.php**
 
-    ![MDS](./images/php-info.png "iris-web-php")
+    ![PHP Info](./images/php-info.png "iris-web-php")
 
 ## Task 3: Create HeatWave AutoML Web App
 
@@ -152,23 +152,23 @@ In this lab, you will be guided through the following tasks:
     <copy>sudo nano iris_app/config.php</copy>
     ```
 
-    ![MDS](./images/iris-web-php-config.png "iris-app-php")
+    ![Application Config](./images/iris-web-php-config.png "iris-app-php config")
 
 4. From your local machine, browse the page config.php and check the successful connection message. If you receive an error, please fix it before continue
 
     **Test Config.php on Web Sever http://150.230....iris_app/config.php**
 
-    ![MDS](./images/iris-web-php-config-ok.png "iris-app-php")
+    ![Application php file](./images/iris-web-php-config-ok.png "iris-app-php file")
 
 5. If the connection test is successful, run the application as follows:
 
     **http://computeIP/iris_app/index.php**
 
-    ![MDS](./images/iris-web-php.png "iris-app-php")
+    ![Iris App Execution](./images/iris-web-php.png "iris-app-php run")
 
 6. Insert test values in the text boxes (you can use the examples in the page) and press '**Submit**' button to see the prediction:
 
-     ![MDS](./images/iris-web-php-result.png "iris-app-php")
+     ![Test Iris App](./images/iris-web-php-result.png "iris-app-php test ")
 
 ## Acknowledgements
 
