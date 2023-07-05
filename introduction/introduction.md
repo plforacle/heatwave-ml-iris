@@ -1,5 +1,7 @@
 # Introduction
 
+![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
+
 This workshop is based on [MySQL HeatWave User Guide: Iris Data Set Machine Learning Quickstart](https://dev.mysql.com/doc/heatwave/en/hwml-iris-example.html)
 
 HeatWave is a massively parallel, high-performance, in-memory query accelerator that accelerates MySQL performance by orders of magnitude for analytics workloads, mixed workloads, and machine learning. A HeatWave Cluster consists of a MySQL DB System and HeatWave nodes that store data in memory and process analytics and machine learning queries.
@@ -33,7 +35,7 @@ _Estimated Time:_ 2 hours
 
 ### About Product/Technology
 
-HeatWave AutoML makes it easy to use machine learning, whether you are a novice user or an experienced ML practitioner. You provide the data, and HeatWave AutoML analyzes the characteristics of the data and creates an optimized machine learning model that you can use to generate predictions and explanations. An ML model makes predictions by identifying patterns in your data and applying those patterns to unseen data. HeatWave AutoML explanations help you understand how predictions are made, such as which features of a dataset contribute most to a prediction.
+HeatWave ML makes it easy to use machine learning, whether you are a novice user or an experienced ML practitioner. You provide the data, and HeatWave ML analyzes the characteristics of the data and creates an optimized machine learning model that you can use to generate predictions and explanations. An ML model makes predictions by identifying patterns in your data and applying those patterns to unseen data. HeatWave ML explanations help you understand how predictions are made, such as which features of a dataset contribute most to a prediction.
 
   ![Machine learning is easier with MySQL HeatWave](./images/heatwave-ml-easy.png "heatwave-ml-easy")
 
