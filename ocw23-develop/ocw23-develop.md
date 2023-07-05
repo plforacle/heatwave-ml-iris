@@ -1,4 +1,4 @@
-# Build HeatWave ML Web App  with PHP
+# Build HeatWave AutoML Web App  with PHP
 
 ![mysql heatwave](./images/mysql-heatwave-logo.jpg "mysql heatwave")
 
@@ -13,7 +13,7 @@ _Estimated Time:_ 20 minutes
 
 In this lab, you will be guided through the following tasks:
 
-- Install Apache and PHP and create PHP / MYSQL Connect ML access Application
+- Install Apache and PHP and create PHP / MYSQL Connect AutoML access Application
 
 ### Prerequisites
 
@@ -123,7 +123,7 @@ In this lab, you will be guided through the following tasks:
 
     ![MDS](./images/php-info.png "iris-web-php")
 
-## TASK 3: Create HeatWave ML Web App
+## TASK 3: Create HeatWave AutoML Web App
 
 1. Security update"   set SELinux to allow Apache to connect to MySQL
 
@@ -138,7 +138,7 @@ In this lab, you will be guided through the following tasks:
     ```
 
     ```bash
-    <copy> sudo wget https://objectstorage.eu-frankfurt-1.oraclecloud.com/p/SZr8-GPTyHrSFHx9pvUYVAhHjoPQvae6fMnMygd73dLTFj_z6dxWBxXysen6iYf1/n/idazzjlcjqzj/b/workshops_bucket/o/iris_app.zip </copy>
+    <copy> sudo wget https://objectstorage.us-ashburn-1.oraclecloud.com/p/EQTHbWQcztdMROAhjbJBgPdyK8gqU-khhM871SJCxsmsMHqJlGvGrJ6z5uSQlxot/n/mysqlpm/b/mysql_iris_ml_app/o/iris_app.zip </copy>
     ```
 
     ```bash
@@ -149,26 +149,26 @@ In this lab, you will be guided through the following tasks:
    Replace the database IP in config.php file with your heatwave database IP and save the file.
 
     ```bash
-    <copy>sudo nano config.php</copy>
+    <copy>sudo nano iris_app/config.php</copy>
     ```
 
-    ![MDS](./images/iris-web-php-config.png "iris-web-php")
+    ![MDS](./images/iris-web-php-config.png "iris-app-php")
 
 4. From your local machine, browse the page config.php and check the successful connection message. If you receive an error, please fix it before continue
 
-    **Test Config.php on Web Sever http://150.230..../config.php**
+    **Test Config.php on Web Sever http://150.230....iris_app/config.php**
 
-    ![MDS](./images/iris-web-php-config-ok.png "iris-web-php")
+    ![MDS](./images/iris-web-php-config-ok.png "iris-app-php")
 
 5. If the connection test is successful, run the application as follows:
 
-    **http://computeIP/index.php**
+    **http://computeIP/iris_app/index.php**
 
-    ![MDS](./images/iris-web-php.png "iris-web-php")
+    ![MDS](./images/iris-web-php.png "iris-app-php")
 
 6. Insert test values in the text boxes (you can use the examples in the page) and press '**Submit**' button to see the prediction:
 
-     ![MDS](./images/iris-web-php-result.png "iris-web-php")
+     ![MDS](./images/iris-web-php-result.png "iris-app-php")
 
 ## Acknowledgements
 

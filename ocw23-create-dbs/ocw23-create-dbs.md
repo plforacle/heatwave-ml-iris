@@ -182,10 +182,7 @@ In this lab, you will be guided through the following tasks:
     <copy>MySQL HeatWave Database Instance</copy>
     ```
 
-    d. Select **HeatWave** to specify a HeatWave DB System
-    ![heatwave db info setup](./images/mysql-create-info-setup.png "heatwave db info setup ")
-
-6. Create Administrator Credentials
+    d. Create Administrator Credentials
 
     **Enter Username** (write username to notepad for later use)
 
@@ -195,6 +192,8 @@ In this lab, you will be guided through the following tasks:
 
     ![heatwave db admin](./images/mysql-create-admin.png "heatwave db admin ")
 
+6. Select **“Standalone”** and enable **“Configure MySQL HeatWave”**
+    ![HeatWave Type selection](./images/mysql-heatwave-system-selection.png "mysql heatwave system selection")
 7. On Configure networking, keep the default values
 
     a. Virtual Cloud Network: **HEATWAVE-VCN**
