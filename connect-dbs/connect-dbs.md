@@ -4,13 +4,11 @@
 
 ## Introduction
 
-When working in the cloud, there are often times when your servers and services are not exposed to the public internet. The Oracle Cloud Infrastructure (OCI) MySQL cloud service is an example of a service that is only accessible through private networks. Since the service is fully managed, we keep it siloed away from the internet to help protect your data from potential attacks and vulnerabilities. It’s a good practice to limit resource exposure as much as possible, but at some point, you’ll likely want to connect to those resources. That’s where Compute Instance, also known as a Bastion host, enters the picture. This Compute Instance Bastion Host is a resource that sits between the private resource and the endpoint which requires access to the private network and can act as a “jump box” to allow you to log in to the private resource through protocols like SSH.  This bastion host requires a Virtual Cloud Network and Compute Instance to connect with the MySQL DB Systems.
+When working in the cloud, there are often times when your servers and services are not exposed to the public internet. The Oracle Cloud Infrastructure (OCI) MySQL HeatWave is an example of a service that is only accessible through private networks. Since the service is fully managed, we keep it siloed away from the internet to help protect your data from potential attacks and vulnerabilities. It’s a good practice to limit resource exposure as much as possible, but at some point, you’ll likely want to connect to those resources. That’s where Compute Instance, also known as a Bastion host, enters the picture. This Compute Instance Bastion Host is a resource that sits between the private resource and the endpoint which requires access to the private network and can act as a “jump box” to allow you to log in to the private resource through protocols like SSH.  This bastion host requires a Virtual Cloud Network and Compute Instance to connect with the MySQL DB Systems.
 
 Today, you will use the Compute Instance to connect from the browser to a MDS DB System
 
 _Estimated Lab Time:_ 20 minutes
-
-[//]:    [](youtube:h5ueWMhLH2g)
 
 ### Objectives
 
@@ -162,7 +160,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
 
     ![compute active](./images/compute-active.png "compute active")
 
-## Task 3: Coonect to Compute Instance using SSH
+## Task 3: Connect to Compute Instance using SSH
 
 1. Copy the public IP address of the active Compute Instance to your notepad
 
@@ -172,7 +170,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
         - Copy **Public IP**
     ![navigation compute with instance](./images/navigation-compute-with-instance.png "navigation compute with instance ")
 
-2. Copy the private IP address of the active MySQl Database Service Instance to your notepad
+2. Copy the private IP address of the active MySQL HeatWave Instance to your notepad
 
     - Go to Navigation Menu
         - Databases
@@ -190,7 +188,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
 
     Enter the username **opc** and the Public **IP Address**.
 
-    Note: The **HEATWAVE-Client**  shows the  Public IP Address as mentioned on TASK 5: #1
+    Note: The **HEATWAVE-Client**  shows the  Public IP Address as mentioned on TASK 5:#1
 
     (Example: **ssh -i ~/.ssh/id_rsa opc@132.145.170...**)
 
@@ -203,7 +201,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
 
     ![connect signin](./images/connect-first-signin.png "connect signin ")
 
-## Task 3: Connect to MySQL Database System with MySQL Shell
+## Task 4: Connect to MySQL Database System with MySQL Shell
 
 1. You will need a MySQL client tool to connect to your new MySQL DB System from your client machine.
 
@@ -221,7 +219,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
 
 2. From your Compute instance, connect to HEATWAVE-DB  using the MySQL Shell client tool.
 
-   The endpoint (IP Address) can be found in your notepad or  the MHEATWAVE-DB  System Details page, under the "Endpoint" "Private IP Address".
+   The endpoint (IP Address) can be found in your notepad or  the HEATWAVE-DB  System Details page, under the "Endpoint" "Private IP Address".
 
     ![mysql endpoint private ip](./images/mysql-endpoint-private-ip.png "mysql endpoint private ip")
 
