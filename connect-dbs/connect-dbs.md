@@ -23,7 +23,7 @@ In this lab, you will be guided through the following tasks:
 
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
-- Must Complete Lab 1
+- Must Complete Lab 2
 
 ## Task 1: Create SSH Key on OCI Cloud Shell
 
@@ -103,7 +103,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
     Instances
     ![navigation compute](./images/navigation-compute.png "navigation compute")
 
-6. On Instances in **(root)** Compartment, click  **Create Instance**
+6. On Instances in **automl** Compartment, click  **Create Instance**
     ![compute menu create instance](./images/compute-menu-create-instance.png "ccompute menu create instance ")
 
 7. On Create Compute Instance
@@ -114,7 +114,7 @@ You will need a compute Instance to connect to your brand new MySQL database.
     <copy>HEATWAVE-Client</copy>
     ```
 
-8. Make sure **(root)** compartment is selected
+8. Make sure **automl** compartment is selected
 
 9. On Placement, keep the selected Availability Domain
 
@@ -259,4 +259,4 @@ You may now **proceed to the next lab**
 
 - **Author** - Perside Foster, MySQL Solution Engineering
 - **Contributor** - Frédéric Descamps, MySQL Community Manager
-- **Last Updated By/Date** - Perside Foster, February 2022
+- **Last Updated By/Date** - Perside Foster,Jul 2023

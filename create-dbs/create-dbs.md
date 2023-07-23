@@ -4,16 +4,15 @@
 
 ## Introduction
 
-In this lab, you will create a Virtual Cloud Network and create the MySQL HeatWave DB System.  
+In this lab, you will create acreate a Compartment, a Virtual Cloud Network,  and create the MySQL HeatWave DB System.  
 
 _Estimated Time:_ 20 minutes
-
-[//]:    [](youtube:Uz_PXHzO9ac)
 
 ### Objectives
 
 In this lab, you will be guided through the following tasks:
 
+- Create Compartment
 - Create Virtual Cloud Network
 - Create MySQL HeatWave (DB System) Instance
 
@@ -21,6 +20,29 @@ In this lab, you will be guided through the following tasks:
 
 - An Oracle Trial or Paid Cloud Account
 - Some Experience with MySQL Shell
+
+## Task 1: Create Compartment
+
+1. Click the **Navigation Menu** in the upper left, navigate to **Identity & Security** and select **Compartments**.
+
+2. On the Compartments page, click **Create Compartment**.
+
+3. In the Create Compartment dialog box, complete the following fields:
+
+    Name:
+
+    ```bash
+    <copy>automl</copy>
+    ```
+
+    Description:
+
+    ```bash
+    <copy>Compartment for AutoML with MySQL Database workshop </copy>
+    ```
+
+4. The **Parent Compartment** should be **automl** and click **Create Compartment**
+    ![VCN](./images/compartment-create.png "create the compartment")
 
 ## Task 1: Create Virtual Cloud Network
 
@@ -51,7 +73,7 @@ In this lab, you will be guided through the following tasks:
     <copy>HEATWAVE-VCN</copy>
     ```
 
-    Compartment: Select  **(root)**
+    Compartment: Select  **automl**
 
     Your screen should look similar to the following
     ![select compartment](./images/vcn-wizard-compartment.png "select compartment")
@@ -168,7 +190,7 @@ In this lab, you will be guided through the following tasks:
 
 5. Provide basic information for the DB System:
 
-    a. Select Compartment **(root)**
+    a. Select Compartment **automl**
 
     b. Enter Name
 
@@ -256,4 +278,4 @@ You may now **proceed to the next lab**.
 
 - **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Priscila Galvao, MySQL Solution Engineering, Nick Mader, MySQL Global Channel Enablement & Strategy Manager, Frédéric Descamps, MySQL Community Manager
 
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, February 2022
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, July 2023

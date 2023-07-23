@@ -10,8 +10,6 @@ A HeatWave cluster comprise of a MySQL DB System and one or more HeatWave nodes.
 
 _Estimated Time:_ 10 minutes
 
-[//]:    [](youtube:OzqCt3XATto)
-
 ### Objectives
 
 In this lab, you will be guided through the following task:
@@ -55,4 +53,4 @@ You may now **proceed to the next lab**
 
 - **Author** - Perside Foster, MySQL Solution Engineering
 - **Contributors** - Mandy Pang, MySQL Principal Product Manager,  Priscila Galvao, MySQL Solution Engineering, Nick Mader, MySQL Global Channel Enablement & Strategy Manager
-- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, February 2022
+- **Last Updated By/Date** - Perside Foster, MySQL Solution Engineering, July 2023

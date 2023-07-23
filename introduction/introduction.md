@@ -68,4 +68,4 @@ In this lab, you will be guided through the following steps:
 - **Contributors** - Salil Pradhan, Principal Product Manager,
 Nick Mader, MySQL Global Channel Enablement & Strategy Manager
 Marco Carlessi, MySQL Solution Engineering
-- **Last Updated By/Date** - Marco Carlessi, MySQL Solution Engineering, Feb 2023
+- **Last Updated By/Date** - Marco Carlessi, MySQL Solution Engineering, Jul 2023
